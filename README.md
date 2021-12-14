@@ -57,6 +57,10 @@ Navigate to the folder of the extracted .osm file, and run osm2pgsql (here with 
 ```bat
 C:\Programok\osm2pgsql\osm2pgsql -s -H localhost -P 5432 -U postgres -W -d osm hungary-latest.osm --cache-strategy sparse --cache 100 -E 23700 -S C:\Programs\osm2pgsql\default.style
 ```
+(Ubuntu command)
+```
+sudo osm2pgsql -s -H localhost -P 5432 -U postgres -W -d bangladesh  bangladesh-latest.osm --cache-strategy sparse --cache 100 -E 32646 -S /usr/share/osm2pgsql/default.style
+```
 
 Parameters are:
 
